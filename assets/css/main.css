@@ -4056,7 +4056,12 @@ h2 {
             margin: 0 0 1.5rem 0;
         }
 }
-
+.fixation {
+    height: 200px;
+}
+.fixation1 {
+    min-height: 520px;
+}
 #main > .posts {
     display: -moz-flex;
     display: -webkit-flex;
@@ -4907,19 +4912,20 @@ h2 {
 
 .category_item {
     float: left;
-    width: 20%;
+    width: 16.6666666667%;
     background-color: #3366cc;
     padding: 20px 0;
     text-align: center;
     cursor: pointer;
     font-size: 15px;
     color: black;
+    height: 90px;
 }
 
-    .category_item:hover {
-        background-color: black;
-        color: white;
-    }
+.category_item:hover {
+    background-color: #2952a3;
+    color: white;
+}
 
 .block_container {
     width: 100%;
